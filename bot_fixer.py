@@ -7,7 +7,7 @@ try:
     from rich.prompt import Prompt as p1
     from concurrent.futures import ThreadPoolExecutor as ter
 except:
-    os.system('python3.12 -m pip install rich httpx futures')
+    os.system('python3.12.18 -m pip install rich httpx futures')
 
 def ua():
     major_versions = [300, 321, 326, 330, 340, 350, 360, 370, 380] 
