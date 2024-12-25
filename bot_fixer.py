@@ -3,7 +3,7 @@ from random import choice as ch
 from os import system as sm
 try:
     import httpx, requests
-    from rich import print as rp
+    from rich import print as pr
     import PyBookAgents
     from bs4 import BeautifulSoup as bsoup
     from rich.prompt import Prompt as p1
