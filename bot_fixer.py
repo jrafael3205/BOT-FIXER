@@ -9,7 +9,7 @@ try:
     from rich.prompt import Prompt as p1
     from concurrent.futures import ThreadPoolExecutor as ter
 except:
-    os.system('python3.11 -m pip install rich httpx futures')
+    os.system('python3.12 -m pip install rich httpx futures')
 
 def lines():
     print("="*os.get_terminal_size().columns)
